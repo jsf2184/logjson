@@ -1,0 +1,137 @@
+{
+  "errorCount": 7,
+  "errors": [
+    {
+      "timestamp": "2020-04-01 10:10:09",
+      "className": "ServiceClient",
+      "message": "Error while processing row - service returned status code 500",
+      "previousLogs": [
+        {
+          "timestamp": "2020-04-01 10:10:04",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:10:06",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:10:07",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:10:08",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:10:09",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:10:09",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        }
+      ]
+    },
+    {
+      "timestamp": "2020-04-01 10:29:07",
+      "className": "ServiceClient",
+      "message": "Error while processing row - service returned status code 500",
+      "previousLogs": []
+    },
+    {
+      "timestamp": "2020-04-01 10:30:02",
+      "className": "ServiceClient",
+      "message": "database error",
+      "previousLogs": []
+    },
+    {
+      "timestamp": "2020-04-01 10:31:29",
+      "className": "ServiceClient",
+      "message": "Validation failed for row: Incorrect number of columns",
+      "previousLogs": [
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        }
+      ]
+    },
+    {
+      "timestamp": "2020-04-01 10:31:29",
+      "className": "ServiceClient",
+      "message": "Validation failed for row: Invalid request ID",
+      "previousLogs": [
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Validation failed for row: Incorrect number of columns"
+        },
+        {
+          "timestamp": "2020-04-01 10:31:29",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        }
+      ]
+    },
+    {
+      "timestamp": "2020-04-01 10:32:53",
+      "className": "ServiceClient",
+      "message": "Validation failed for row: Invalid request ID",
+      "previousLogs": [
+        {
+          "timestamp": "2020-04-01 10:32:53",
+          "className": "ServiceClient",
+          "message": "Begin processing rows"
+        },
+        {
+          "timestamp": "2020-04-01 10:32:53",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:32:53",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        }
+      ]
+    },
+    {
+      "timestamp": "2020-04-01 10:33:11",
+      "className": "ServiceClient",
+      "message": "Unhandled eror in ServiceClient: NullPointerException",
+      "previousLogs": [
+        {
+          "timestamp": "2020-04-01 10:33:08",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        },
+        {
+          "timestamp": "2020-04-01 10:33:10",
+          "className": "ServiceClient",
+          "message": "Service processed row"
+        }
+      ]
+    }
+  ]
+}
