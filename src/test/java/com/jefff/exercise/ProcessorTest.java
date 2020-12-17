@@ -21,7 +21,7 @@ import static org.mockito.Mockito.*;
  */
 @Slf4j
 public class ProcessorTest {
-    public static final String TEST_OUTPUT_FILE = "test.json";
+    public static final String TEST_OUTPUT_FILE = "expected.json";
     public static final String EXPECTED_OUTPUT_FILE = "expected.json";
 
     LineReader mockLineReader;
@@ -148,7 +148,7 @@ public class ProcessorTest {
             lineCount++;
             Assert.assertNotNull(actualLine);
             Assert.assertNotNull(expectedLine);
-            Assert.assertEquals(actualLine, expectedLine);
+            Assert.assertEquals(expectedLine.trim(), actualLine.trim());
         }
         log.info("Successfully compared {} lines of actual output to expected output", lineCount);
     }
